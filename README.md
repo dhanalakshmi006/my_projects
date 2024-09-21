@@ -1,2 +1,2 @@
 # my_projects
-A personal portfolio showcasing my projects, skills, and achievements in coding and technology.
+A personal portfolio showcasing some projects I have worked in coding.
