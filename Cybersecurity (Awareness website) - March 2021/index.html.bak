@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PROtecHted</title>
+  <link rel="stylesheet" href="nav.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<style>
+body {background-color: #e7eefe;}
+.pic1 img{margin: 1%;
+ width:45%;
+  display:block;
+  float:left;
+}
+.info1 {margin:1%;}
+.info1 h1 h3 {
+width: 48%;
+display: inline-block;
+text-align:center;}
+
+.pic2 img {display:block;
+margin: 1%;
+width:98%;
+height:auto;}
+
+.info2 {display: block;
+margin:1%;
+text-align:center;}
+
+	
+@media screen and (max-width: 900px) {
+            .pic1 img,
+            .info1 h1 h3 {
+                width: 100%;
+            }
+
+</style>
+<div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+	     <div class="logo1"><img src="logo.png"/> </div>
+      <div class="logo"><a style="color:#FF0E0E; font-weight: 700" href="#">PRO</a><a style="color:#00F6FF;" href="#">tec</a><a style="color:#FF0E0E;font-weight:700;"href="#">H</a><a style="color:#00F6FF;" href="#">ted</a></div>
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li>
+            <a href="#" class="desktop-link">Threats</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">Threats</label>
+            <ul>
+              <li><a href="cyberA.html">Cyber Attack</a></li>
+              <li><a href="#">Types</a></li>
+           
+            </ul>
+          </li>
+          <li>
+           <li><a href="CyberS.html">Prevention</a></li>
+          <li><a href="#">Basic Terms</a></li>
+          
+        </ul>
+      </div>
+    </nav>
+  </div>
+<body><br><br><br>
+ <div class="pic1"> <img src="cs.png"></div>
+        
+            <div style="background-color:#e7eefe;" align="center" class="info1">
+               <h3 style="color:#0A1172;">
+                  Cyber security is a discipline that covers how to defend devices and services from electronic attacks by nefarious actors such as hackers, spammers, and cybercriminals. While some components of cyber security are designed to strike first, most of today's professionals focus more on determining the best way to defend all assets, from computers and smartphones to networks and databases, from attacks.
+               </h3>
+               <h3 style="color:#0A1172;">
+                  Cyber security has been used as a catch-all term in the media to describe the process of protection against every form of cybercrime, from identity theft to international digital weapons. These labels are valid, but they fail to capture the true nature of cyber security for those without a computer science degree or experience in the digital industry.
+               </h3>
+            </div>
+         <div class="info2">
+          
+               <h3 style="color:#0A1172;"><br>
+                   Cybersecurity is essential for a country’s military, hospitals, large corporations, small businesses, and other organizations and individuals since data is now the cornerstone of any organization. If that data is exploited, then there are a lot of risks.<br> Here are some Advantages of Cyber Security:-
+               </h3> <br>
+         </div>
+		 <div class="pic2" ><img src="ad.png"/>
+         </div>
+		    <div class="pic1"><img src="4.png"/>
+         </div>
+         <div class="info1" align="center">
+		 <h1 style="color:#0A1172;">Cyber Security Awareness</h1>
+               <h3 style="color:#006b75;"><br>
+                Cybersecurity awareness involves being mindful of cybersecurity in day-to-day situations. Being aware of the dangers of browsing the web, checking email and interacting online are all components of cybersecurity awareness. As business leaders, it’s our responsibility to make sure everyone considers cybersecurity an essential part of their role.
+				Not everyone in an organization needs to understand concepts like SPF records and DNS cache poisoning, but empowering every employee with information relevant to their role helps them stay safe online—both at work and home. Role-based training for technical and non-technical staff is the best way to prepare the right people for the right cybersecurity threats.
+               </h3>
+               <h3 style="color:#006b75;">
+                 Cybersecurity awareness could mean something a bit different to your general workforce than it means to technical teams. Management of data, permissions and regulations are topics that your IT team needs to know but aren’t necessarily relevant to the rest of your organization. Delivering the appropriate training to each team is vital to building a cybersecurity awareness program that motivates lasting behavior change.<br><br>
+               </h3></div>
+			
+        
+         <div class="info2">
+               <h1 style="color:#0A1172;">Why is Cybersecurity Awareness Important?</h1>
+               <h3 style="color:#006b75;">
+                 <br>				 Similar to safety incidents, cybersecurity incidents can come with a hefty price tag. If you’re struggling to allocate budget to cybersecurity training, tools or talent, you should think about it through the lens of risk management. With an ever-rising number of cyberattacks each year, the risk of not educating your employees on cybersecurity awareness only continues to grow.Cybercriminals are constantly finding new ways to circumvent the latest defensive tools and technologies, landing themselves in the inboxes and browsers of your employees.
+               </h3>
+               <h3 style="color:#006b75;">
+                 While an email spam filter will catch many of these, some will still occasionally make it through to your inbox. By training your workforce to identify these attacks, you can significantly reduce the risk of a security incident or breach. This can be the difference between an expensive ransomware infection and a message to your IT department that reads, “This email looks suspicious, so I didn’t open it.”
+               </h3>
+            </div> <div class="pic2"> <img src="CA1.gif"/>
+         </div>
+
+		 
+     
+	   <div class="main">
+         <div class="columns image" style="background-image:url('img/3.jpg')">
+         </div>
+         <div class="columns info">
+            <div class="info-container">
+               <h1></h1>
+               <p>
+                  
+               </p>
+               <p>
+                  
+               </p>
+            </div>
+         </div>
+      </div>
+</body>
+</html>

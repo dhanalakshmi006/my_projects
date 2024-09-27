@@ -1,0 +1,122 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PROtecHted</title>
+  <link rel="stylesheet" href="nav.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+<div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+	     <div class="logo1"><img src="logo.png"/> </div>
+      <div class="logo"><a style="color:#FF0E0E; font-weight: 700" href="#">PRO</a><a style="color:#00F6FF;" href="#">tec</a><a style="color:#FF0E0E;font-weight:700;"href="#">H</a><a style="color:#00F6FF;" href="#">ted</a></div>
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li>
+            <a href="cyberA.html" class="desktop-link">Cyber Threats</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">Cyber Threats</label>
+            <ul>
+              <li><a href="#">Cyber Attack</a></li>
+              <li><a href="#">Drop Menu 2</a></li>
+              <li><a href="#">Drop Menu 3</a></li>
+              <li><a href="#">Drop Menu 4</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="desktop-link">Cyber Safety </a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">Cyber Safety</label>
+            <ul>
+              <li><a href="CyberS.html">Prevention</a></li>
+              <li><a href="#">Drop Menu 2</a></li>
+              <li><a href="#">Drop Menu 3</a></li>
+              <li>
+                <a href="#" class="desktop-link">More Items</a>
+                <input type="checkbox" id="show-items">
+                <label for="show-items">More Items</label>
+                <ul>
+                  <li><a href="#">Sub Menu 1</a></li>
+                  <li><a href="#">Sub Menu 2</a></li>
+                  <li><a href="#">Sub Menu 3</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="basic.html">Basic terminologies</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</head>
+<style>
+body {background-color: #eef9ff;}
+.pic1 img{margin: 1%;
+ width:38%;
+  display:block;
+  float:left;
+}
+.info1 {margin:1%;}
+.info1 h1 h2 {
+width: 60%;
+display: inline-block;
+text-align:center;}
+
+.pic3 img{margin: 1%;
+ width:55%;
+  display:block;
+  float:left;
+}
+.info3 {margin:1%;}
+.info3 h1 h3 {
+width: 60%;
+display: inline-block;
+text-align:center;}
+
+.pic2 img{
+width:100%;
+height:auto;}
+
+
+.info2 {display: block;
+margin-top:0;
+margin-bottom:0;
+margin-right:1%;
+margin-left:1%;
+text-align:center;}
+
+@media screen and (max-width: 900px) {
+            .pic1 img,
+            .info1 h1 h3,
+			.pic3 img,
+            .info3 h1 h3 			{
+                width: 100%;
+            }
+</style>
+<body><br><br><br>
+<div class="pic3"><img src="Cat2.gif"/></div>
+<div class="info3" style="background-color:#eef9ff;">
+<h3 style="text-align: center; margin: 1%; color:#1a4886;">A cyber attack is an assault launched by cybercriminals using one or more computers against a single or multiple computers or networks. A cyber attack can maliciously disable computers, steal data, or use a breached computer as a launch point for other attacks. Cybercriminals use a variety of methods to launch a cyber attack. <br><br>
+Cybercriminals are aware of recent advancements in company cybersecurity and have adapted their attacks to circumvent and defeat traditional safeguards. To avoid detection, modern cyber attacks are multi-vectored and use polymorphic code. As a result, detecting and responding to threats is more challenging than ever.<br><br>
+Cybercriminals’ primary target and an organization’s first line of defense in the remote work world is the endpoint. Securing the remote workforce necessitates an understanding of the most common cyber risks that employees experience, as well as endpoint security solutions capable of detecting, preventing, and resolving these assaults.
+Cybercriminals use many different methods to launch a cyber attack.<br> Here are some Cybersecurity threats in recent years:- <br><br></h3>
+</div>
+<div class="pic2"><img src="Catt1.gif"/></div><br>
+ <div class="pic1"> <img src="3.jpg"></div>
+        
+            <div align="center" class="info1">
+               <h2 style="color:#006b75;"><br>
+                  Cyber threats of generation V and VI are now a reality for businesses. Cybercriminals are aware of recent advancements in company cybersecurity and have adapted their attacks to circumvent and defeat traditional safeguards. To avoid detection, modern cyber attacks are multi-vectored and use polymorphic code. As a result, detecting and responding to threats is more challenging than ever. Cybercriminals’ primary target and an organization’s first line of defense in the remote work world is the endpoint.
+               </h2>
+               <h2 style="color:#006b75;">
+                  Securing the remote workforce necessitates an understanding of the most common cyber risks that employees experience, as well as endpoint security solutions capable of detecting, preventing, and resolving these assaults. Cyberattacks come in a variety of different forms. Cybercriminals use many different methods to launch a cyber attack, a phishing attack, an exploitation of compromised credentials, and more. From this initial access, cybercriminals can go on to achieve different objectives including malware infections, ransomware, denial of service attack, data theft, and more.
+               </h2>
+            </div>
+</body>
+</html>

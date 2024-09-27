@@ -1,0 +1,111 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PROtecHted</title>
+  <link rel="stylesheet" href="nav.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+<div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+	     <div class="logo1"><img src="logo.png"/> </div>
+      <div class="logo"><a style="color:#FF0E0E; font-weight: 700" href="#">PRO</a><a style="color:#00F6FF;" href="#">tec</a><a style="color:#FF0E0E;font-weight:700;"href="#">H</a><a style="color:#00F6FF;" href="#">ted</a></div>
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li>
+            <a href="#" class="desktop-link">Cyber Threats</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">Cyber Threats</label>
+            <ul>
+              <li><a href="cyberA.html">Cyber Attack</a></li>
+              <li><a href="#">Types</a></li>
+           
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="desktop-link">Cyber Safety </a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">Cyber Safety</label>
+/            <ul>
+              <li><a href="#">Prevention</a></li>
+              
+              <li>
+                <a href="#" class="desktop-link">More Items</a>
+                <input type="checkbox" id="show-items">
+                <label for="show-items">More Items</label>
+                <ul>
+                  <li><a href="#">Sub Menu 1</a></li>
+                  <li><a href="#">Sub Menu 2</a></li>
+                  <li><a href="#">Sub Menu 3</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#">Basic Terminologies</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</head>
+<style>
+body{background-color: #fbfaf0;}
+.pic2 img{margin: 1%;
+ width:40%;
+  display:block;
+  float:left;
+}
+.info1 {margin:1%;}
+.info1 h1 h2 {
+width: 55%;
+display: inline-block;
+text-align:center;
+float:right;}
+
+@media screen and (max-width: 900px){
+			.pic2 img,
+            .info1 h1 h3 {
+                width: 100%;
+            }
+</style>
+<body>
+<div class="info2"><br><br><br>
+<h2 style="text-align: center; margin: 1%; color:#370063;">Here are the 3 major types of cyber attacks you need to know about. Cyber criminals are smart though and are continually coming up with new ways to get their work done. No longer can organizations turn a blind eye to the threat of cyber security. It is time to for organizations to protect themselves and fight back against cyber crime.<br></h2>
+</div>
+
+<div class="pic2"><img src="21.png"/></div><br>
+<div align="center" class="info1">
+               <h1 style="color:#000;"><br>
+                  Malware
+               </h1>
+               <h2 style="color:#370063;">
+                  <i>Malware</i> is a general term for malicious software. Malware includes viruses, worms, Trojans and spyware. Many people use the terms malware and virus interchangeably. Malware is more of an umbrella term used to describe a lot of different cyber attacks. 
+				  <br> <br><i>How does it work: </i> One example of malware is a trojan horse. A trojan horse is a virus that poses as legitimate software. As you launch the program it may appear to be working in the way you hoped, but what you don't realize is that it is slowly infecting your computer until it loses functionality.  
+               </h2>
+            </div><br><br>
+<div class="pic2"><img src="22.png"/></div><br>
+<div align="center" class="info1">
+               <h1 style="color:#000;"><br>
+                   Ransomware
+               </h1>
+               <h2 style="color:#370063;">
+                  <i>Ransomware</i> is a software that denies you access to your files or computer until you pay a ransom. 
+				  <br> <br><i>How does it work: </i> Ransomware always requires that the user complete a call to action. A call to action is when someone clicks on an infected link online, or would enable editing on a infected document.  
+               </h2><br><br><br><br>
+            </div>
+<div class="pic2"><img src="23.png"/></div><br>
+<div align="center" class="info1">
+               <h1 style="color:#000;"><br>
+                   Phishing
+               </h1>
+               <h2 style="color:#370063;">
+                  <i>Phishing</i> refers to the process of deceiving recipients into sharing sensitive information with an unknown third party (cyber criminal).
+				  <br> <br><i>How does it work: </i> A cyber criminal will strategically pick companies susceptible to cyber attacks. It doesn't matter if you are a large corportation, small business, school, or non-profit, they will target you. After picking an organization, the hacker will do some research about the company so they can create a convincing email to send to employees. Once they are ready to send the email, they will make the final touches by either asking for sensitive information or embeding a dangerous link in the email, allowing them to encrypt your documents. After the cyber criminal sends the email, the criminal waits and watches as employees of the targeted organization respond to their email with the sensitive information the criminal is looking for.   
+               </h2>
+            </div>
+</body>

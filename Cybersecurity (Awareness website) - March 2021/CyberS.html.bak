@@ -1,0 +1,148 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PROtecHted</title>
+  <link rel="stylesheet" href="nav.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+<div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+	     <div class="logo1"><img src="logo.png"/> </div>
+      <div class="logo"><a style="color:#FF0E0E; font-weight: 700" href="#">PRO</a><a style="color:#00F6FF;" href="#">tec</a><a style="color:#FF0E0E;font-weight:700;"href="#">H</a><a style="color:#00F6FF;" href="#">ted</a></div>
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li>
+            <a href="#" class="desktop-link">Cyber Threats</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">Cyber Threats</label>
+            <ul>
+              <li><a href="cyberA.html">Cyber Attack</a></li>
+              <li><a href="Types.html">Types</a></li>
+     
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="desktop-link">Cyber Safety </a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">Cyber Safety</label>
+            <ul>
+              <li><a href="CyberS.html">Prevention</a></li>
+              <li>
+                <a href="#" class="desktop-link">More Items</a>
+                <input type="checkbox" id="show-items">
+                <label for="show-items">More Items</label>
+                <ul>
+                  <li><a href="#">Sub Menu 1</a></li>
+                  <li><a href="#">Sub Menu 2</a></li>
+                  <li><a href="#">Sub Menu 3</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="basic.html">Basic Terminologies</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</head>
+<style>
+body {background-color: #00acec;}
+
+.pic2 img{margin: 1%;
+ width:55%;
+  display:block;
+  float:left;
+}
+.info1 {margin:1%;}
+.info1 h1 h2 {
+width: 40%;
+display: inline-block;
+text-align:center;}
+ 
+.pic1 img{
+width:100%;
+height:auto;}
+
+.info2 {display: block;
+margin-top:0;
+margin-bottom:0;
+margin-right:1%;
+margin-left:1%;
+text-align:center;}
+
+.prec {width:100%;
+height: auto;}
+
+@media screen and (max-width: 900px) {
+            .pic1 img,
+			.pic2 img,
+            .info1 h1 h3 {
+                width: 100%;
+            }
+</style>
+<body><br><br><br>
+<div class="pic1"><img src="14.jpg"/></div>
+<div class="info2">
+<h2 style="text-align: center; margin: 1%; color:#fff;">Luckily, there are practices you can put in place today to prevent cyber bullying from happening. Even though there's no "one size fits all" solution, here are some of the steps you can take:<br><br></h2>
+</div>
+<div class="pic2"><img src="18.jpg"/></div><br>
+<div align="center" class="info1">
+               <h1 style="color:#fff;"><br>
+                  Tell someone
+               </h1>
+               <h2 style="color:#fff;">
+                  Just let a trusted adult know what's going on. The worst thing you can do is to keep it to yourself. Remember, it's not your fault!
+               </h2>
+            </div>
+<div class="pic2"><img src="Cs1.png"/></div><br>
+<div align="center" class="info1">
+               <h1 style="color:#fff;"><br>
+                  Don't instigate
+               </h1>
+               <h2 style="color:#fff;">
+                  If someone is sending you hurtful messages or posting mean pictures, they're doing it to get an emotional response from you. Don't give them one! Don't respond OR retaliate. This will only encourage them to take it further.
+               </h2>
+            </div><br>
+<div align="center" class="info1">
+               <h1 style="color:#fff;"><br>
+                  Block them
+               </h1>
+               <h2 style="color:#fff;">
+                  The majority of cyber bullying occurs by someone you already know. These are also the people that are closest to you and your passwords, so keep them safe. If it's on Facebook or another website that allows you to block the person or leave the chat room, then do it!
+               </h2>
+            </div>			<br>
+<div align="center" class="info1">
+               <h1 style="color:#fff;"><br>
+                  Be aware
+               </h1>
+               <h2 style="color:#fff;">
+                  If you're a parent, encourage your kid(s) to talk about what they're doing online and whom they're doing it with.
+               </h2>
+            </div><br>
+<div align="center" class="info1">
+               <h1 style="color:#fff;"><br>
+                  Always log out
+               </h1>
+               <h2 style="color:#fff;">
+                  Especially on public computers.
+               </h2>
+            </div><br>
+<div align="center" class="info1">
+               <h1 style="color:#fff;"><br>
+                  Don't be a cyber bully yourself
+               </h1>
+               <h2 style="color:#fff;">
+                  It's easy to be hurtful, so remember what it's like for the person on the other side.
+               </h2><br><br>
+            </div>		
+			<img class="prec" src="20.jpg" />
+			
+</body>
+</html>
