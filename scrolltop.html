@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #scrollToTop {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px;
+            background-color: #0078d7;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        #scrollToTop:hover {
+            background-color: #005a9e;
+        }
+    </style>
+</head>
+<body>
+    <button id="scrollToTop">↑</button>
+    <script>
+        document.addEventListener("scroll", function () {
+            var button = document.getElementById("scrollToTop");
+            if (window.scrollY > 200) {
+                button.style.display = "block";
+            } else {
+                button.style.display = "none";
+            }
+        });
+
+        document.getElementById("scrollToTop").addEventListener("click", function () {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
+</body>
+</html>
